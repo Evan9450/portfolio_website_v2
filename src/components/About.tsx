@@ -23,31 +23,27 @@ export default function About() {
 		{
 			name: 'React',
 			category: 'Frontend',
-			description: 'Modern JavaScript library for building interactive user interfaces',
 		},
 		{
 			name: 'Next.js',
 			category: 'Frontend',
-			description: 'Full-stack React framework for production applications',
 		},
-		{ name: 'TypeScript', category: 'Frontend', description: 'Typed JavaScript for better development experience' },
+		{ name: 'TypeScript', category: 'Frontend' },
 		{
 			name: 'Tailwind CSS',
 			category: 'Frontend',
-			description: 'Utility-first CSS framework for rapid UI development',
 		},
-		{ name: 'Python', category: 'Backend', description: 'Versatile programming language for backend development' },
-		{ name: 'Django', category: 'Backend', description: 'High-level Python web framework for rapid development' },
-		{ name: 'PostgreSQL', category: 'Database', description: 'Advanced open-source relational database system' },
+		{ name: 'Python', category: 'Backend' },
+		{ name: 'Django', category: 'Backend' },
+		{ name: 'PostgreSQL', category: 'Database' },
 		{
 			name: 'MySQL',
 			category: 'Database',
-			description: 'Popular open-source relational database management system',
 		},
-		{ name: 'DynamoDB', category: 'Database', description: 'Fully managed NoSQL database service by AWS' },
-		{ name: 'Docker', category: 'DevOps', description: 'Containerization platform for consistent deployments' },
-		{ name: 'AWS', category: 'Cloud', description: 'Comprehensive cloud computing platform' },
-		{ name: 'MUI', category: 'Frontend', description: 'React component library for faster UI development' },
+		{ name: 'DynamoDB', category: 'Database' },
+		{ name: 'Docker', category: 'DevOps' },
+		{ name: 'AWS', category: 'Cloud' },
+		{ name: 'MUI', category: 'Frontend' },
 	];
 
 	return (
@@ -100,19 +96,16 @@ export default function About() {
 
 							{/* Content */}
 							<div className="relative z-10">
-								<div className="flex items-center justify-between mb-3">
+								<div className="flex items-center justify-between">
 									<h2 className="text-sm font-bold text-white drop-shadow-lg">{skill.name}</h2>
 									<span
-										className={`inline-block px-2 py-1 text-xs rounded-full backdrop-blur-sm ${
+										className={`inline-block px-2 py-1 text-[10px] rounded-full backdrop-blur-sm ${
 											categoryColors[skill.category] || 'bg-gray-500 text-white'
 										}`}
 									>
 										{skill.category}
 									</span>
 								</div>
-								<p className="text-xs text-white/50 leading-relaxed drop-shadow-sm">
-									{skill.description}
-								</p>
 							</div>
 
 							{/* Subtle Glow Effect */}
