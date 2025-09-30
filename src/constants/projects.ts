@@ -29,8 +29,8 @@ export const projects: Project[] = [
       "A frontend Website for Brighton Grammar school, providing information about the Alumni and their achievements",
     image:
       "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
-    technologies: ["Vue.js", "Firebase", "TailwindCSS"],
-    liveLink: "https://example.com/taskapp",
+    technologies: ["Next.js", "EC2", "TailwindCSS", "Amplify"],
+    liveLink: "https://main.d3ikgngeoc22hn.amplifyapp.com/display/",
     // githubLink: "https://github.com/username/taskapp",
     category: "frontend",
   },
