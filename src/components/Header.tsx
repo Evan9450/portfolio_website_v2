@@ -28,7 +28,7 @@ export default function Header({ scrollToSection }: HeaderProps) {
   const socialLinks = [
     { icon: <Github className="h-4 w-4" />, href: "https://github.com/yourusername" },
     { icon: <Linkedin className="h-4 w-4" />, href: "https://linkedin.com/in/yourusername" },
-    { icon: <Mail className="h-4 w-4" />, href: "mailto:your@email.com" },
+    { icon: <Mail className="h-4 w-4" />, href: "mailto:evan9450@email.com" },
   ];
 
   return (

@@ -51,7 +51,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.6, duration: 0.8 }}
 					>
-						<a href="/resume/Liang_Shi_Resume.docx" download>
+						<a href="/resume/Liang Shi.pdf" download>
 							<Button variant="default" className="mr-2">
 								Resume
 							</Button>
@@ -59,8 +59,8 @@ export default function Hero({ scrollToSection }: HeroProps) {
 						<Button
 							variant="ghost"
 							className="bg-transparent hover:bg-transparent hover:text-[#940913]"
-							onClick={() => scrollToSection('contact')}
-						>
+							onClick={() => window.location.href = 'mailto:evan9450@email.com'}
+							>
 							Get in Touch -&gt;
 						</Button>
 					</motion.div>
